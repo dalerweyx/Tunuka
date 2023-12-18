@@ -1,0 +1,362 @@
+ /* @media (max-width: 768px) {
+     .entry {
+         width: 600px;
+     }
+
+     .entry header {
+         width: 20px;
+         height: 100px;
+         background-color: black;
+         justify-content: start;
+     }
+
+     .entry header button {
+         height: 40px;
+     }
+
+     .entry header a {
+         font-size: 13px;
+
+     }
+
+     .entry header .number a {
+         margin-left: 10px;
+         font-size: 13px;
+         margin-top: 0px;
+
+     }
+
+     .entry header .box p {
+         font-size: 16px;
+         margin-top: 25px;
+
+     }
+
+     .entry .images-3 {
+         margin-left: 0%;
+         margin-right: 200px;
+         text-align: center;
+     }
+
+     .entry .images-3 .img-4 {
+         margin-left: 0%;
+     }
+
+     .entry .images-3 .img-4 img {
+         width: 200px;
+         height: 200px;
+         margin-left: 0%;
+
+     }
+ } */
+
+ .fixed {
+     height: 60px;
+ }
+
+ .row img {
+     height: 270px;
+     width: 315px;
+
+
+ }
+
+ .row .bnt {
+     gap: 10px;
+ }
+
+ .row a {
+     display: inline-block;
+     width: 200px;
+     gap: 20x;
+     color: black;
+
+ }
+
+ .col-md-4 :hover {
+     transform: scale(1.1);
+
+ }
+
+ .images img {
+     width: 280px;
+     height: 300px;
+     border-radius: 10px;
+ }
+
+
+
+
+ .banner {
+     display: flex;
+     gap: 50px;
+ }
+
+ .bnt a:hover {
+     color: #fff;
+ }
+
+ .bnt {
+     margin-top: 10px;
+     display: flex;
+     gap: 50px;
+     font-size: 27px
+ }
+
+ .number a p:hover {
+     color: #fff;
+ }
+
+ .number a p {
+     font-size: 25px;
+     transition: .7s;
+ }
+
+ .number {
+     margin-top: 15px;
+
+
+ }
+
+ .banner .number a {
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+     font-size: 23px;
+ }
+
+
+ .box p {
+     font-size: 30px;
+     color: #000000a8;
+     font-weight: 700;
+     margin-top: 10px;
+
+ }
+
+
+ .box p del {
+     text-decoration: none;
+     color: #002fff;
+
+ }
+
+ .box1 button {
+     transition: 0.7;
+     border: 2px solid #1100ff8f;
+     border-radius: 10px;
+     background-color: rgba(255, 255, 255, 0.062);
+     text-align: center;
+ }
+
+
+ .continer {
+     display: flex;
+     margin-top: 20px;
+     gap: 30px;
+ }
+
+ .top1 {
+     background-color: #1100ffd0;
+     height: 50px;
+ }
+
+ .carta img:hover {
+     transform: scale(1.1, 1.1);
+
+ }
+
+ .carta .img-4 {
+     width: 450px;
+     height: 280px;
+     overflow: hidden;
+     border-radius: 20px;
+ }
+
+ .carta a img {
+     border-radius: 20px;
+     transition: .8s;
+ }
+
+ .carta a:hover {
+     color: rgb(133, 133, 192);
+ }
+
+ .carta a {
+     text-decoration: none;
+     color: black;
+     transition: .4s;
+     width: 30px;
+ }
+
+ .carta {
+     text-align: center;
+
+ }
+
+
+ .images-3 {
+     margin-top: 50px;
+     display: flex;
+     margin-left: 130px;
+     gap: 30px;
+
+     overflow: hidden;
+ }
+
+ .page {
+
+     margin-top: 50px;
+     cursor: pointer;
+     position: relative;
+     transition: .7s;
+
+ }
+
+ .page h1 {
+     background-color: #00c3ff;
+     text-align: center;
+     border-radius: 10px;
+     width: 80%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+
+     transform: translate(-50%, -50%);
+ }
+
+
+ .pagee {
+     overflow: hidden;
+     width: 100vh;
+     height: 50px;
+ }
+
+ .page:hover {
+     transform: scale(1.1, 1.1);
+
+ }
+
+ .page h1 {
+     color: white;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     padding: 10px;
+     transition: .5s;
+ }
+
+ .cart span {
+     width: 350px;
+     font-size: 18px;
+     font-weight: bold;
+ }
+
+ .cart {
+     width: 350px;
+
+ }
+
+ .cart img {
+     border-radius: 7px;
+ }
+
+
+ .cardd {
+     display: flex;
+     gap: 40px;
+     margin-left: 108px;
+     margin-top: 50px;
+
+ }
+
+ .cart span:hover {
+     color: #00c3ff;
+
+ }
+
+ .cart span {
+     width: 350px;
+     transition: .7s;
+     cursor: pointer;
+ }
+
+ .bntlar span:hover {
+     color: black;
+ }
+
+ .bntlar span {
+     margin-top: 8px;
+     font-size: 16px;
+     font-weight: normal;
+ }
+
+ .bntlar button:hover {
+     font-weight: 700;
+     color: #00c3ff;
+ }
+
+ .bntlar button {
+     border-radius: 7px;
+     border: 2px solid #00c3ff;
+     font-size: 16px;
+     transition: 0.3s;
+     background-color: white;
+ }
+
+ .bntlar {
+     width: 30px;
+     height: 35px;
+     display: flex;
+     gap: 10px;
+
+ }
+
+ .cart {
+     text-align: center;
+     padding: 14px;
+     height: 560px;
+     border: 1cap solid black;
+     cursor: pointer;
+     transition: .4s;
+     box-shadow: 3px 3px 15px 3px rgba(0, 0, 0, 0.589);
+ }
+
+ .cart:hover {
+     transform: scale(1.1);
+
+ }
+
+ .cart-number a {
+     color: black;
+ }
+
+ .cart-number {
+     display: flex;
+     gap: 20px;
+ }
+
+ .cart-number1 a {
+     color: black;
+
+ }
+
+ .cart-number1 {
+     display: flex;
+     gap: 20px;
+ }
+
+ .xaridor {
+     width: 900px;
+     margin-top: 80px;
+ }
+
+ .xaridor span {
+     font-size: 30px;
+     font-weight: bold;
+     width: 300px;
+     word-spacing: 15px;
+ }
+
+
+ .card img {
+     width: 100%;
+     height: 100%;
+ }

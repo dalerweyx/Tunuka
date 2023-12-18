@@ -1,0 +1,138 @@
+.page {
+    width: 180vh;
+    height: 70px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #00c3ff;
+    margin-left: 68px;
+    margin-top: 50px;
+
+    cursor: pointer;
+}
+
+.page h1 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cardd {
+    display: flex;
+    gap: 40px;
+    margin-left: 120px;
+    margin-top: 50px;
+
+}
+
+.cart:hover {
+    transform: scale(1.1);
+
+}
+
+.cart-number a {
+    color: black;
+    margin-top: 14px;
+
+}
+
+.cart-number {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.cart-number1 a {
+    color: black;
+    margin-top: 14px;
+}
+
+.cart-number1 {
+    display: flex;
+    gap: 20px;
+    margin-left: 20%;
+}
+
+.cart {
+    text-align: center;
+    padding: 14px;
+    height: 560px;
+    border: 1cap solid black;
+    cursor: pointer;
+    transition: .4s;
+    box-shadow: 3px 3px 20px 3px rgba(0, 0, 0, 0.589);
+}
+
+.cart span {
+    width: 350px;
+    transition: .7s;
+    cursor: pointer;
+}
+
+.cart span:hover {
+    color: #00c3ff;
+
+}
+
+.cart img {
+    border-radius: 7px;
+}
+
+.cart span {
+    width: 350px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart {
+    width: 350px;
+
+}
+
+.cardd span {
+    margin-top: 10px;
+}
+
+.bntlar span:hover {
+    color: black;
+}
+
+.bntlar span {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.bntlar button:hover {
+    font-weight: 700;
+    color: #00c3ff;
+}
+
+.bntlar button {
+    border-radius: 7px;
+    border: 2px solid #00c3ff;
+    font-size: 16px;
+    transition: 0.3s;
+    background-color: white;
+}
+
+.bntlar {
+    width: 30px;
+    height: 35px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.xaridor {
+    width: 900px;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.xaridor span {
+    font-size: 30px;
+    font-weight: bold;
+    width: 300px;
+    word-spacing: 15px;
+}
